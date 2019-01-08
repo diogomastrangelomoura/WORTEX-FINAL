@@ -16,16 +16,15 @@
   <div class="top-bar">
   	<div class="container">
     
-    <!-- Curency -->
+    <!-- Moedas -->
     <div class="curency">
     	
         
                       <select class="selectpicker">
+                        <option>BRL</option>
                         <option>USD</option>
-                        <option>PKR</option>
-                        <option>FR</option>
                       </select>
-</div>
+    </div>
 
 
 <!-- Login Info -->
@@ -34,35 +33,35 @@
         
                       <ul>
                       	<li><a href="#.">LOGIN</a></li>
-                      <li><a href="#."> MY ACCOUNT          </a></li>
-                      <li><a href="#.">MY CART</a></li>         
+                      <li><a href="#."> MINHA CONTA</a></li>
+                      <li><a href="#.">CARRINHO</a></li>         
                       
-                       <!-- USER BASKET -->
+                       <!-- Carrinho do Topo -->
               <li class="dropdown user-basket"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i class="icon-basket-loaded"></i> </a>
                 <ul class="dropdown-menu">
                   <li>
                     <div class="media-left">
-                      <div class="cart-img"> <a href="#"> <img class="media-object img-responsive" src="images/cart-img-1.jpg" alt="..."> </a> </div>
+                      <div class="cart-img"> <a href="#"> <img class="media-object img-responsive" src="imagens/carrinho_topo/produto1.jpg" alt="..."> </a> </div>
                     </div>
                     <div class="media-body">
-                      <h6 class="media-heading">WOOD CHAIR</h6>
-                      <span class="price">129.00 USD</span> <span class="qty">QTY: 01</span> </div>
+                      <h6 class="media-heading">CREME PARA CABELO</h6>
+                      <span class="price"> R$ 129.00</span> <span class="qty">QTD: 01</span> </div>
                   </li>
                   <li>
                     <div class="media-left">
-                      <div class="cart-img"> <a href="#"> <img class="media-object img-responsive" src="images/cart-img-2.jpg" alt="..."> </a> </div>
+                      <div class="cart-img"> <a href="#"> <img class="media-object img-responsive" src="imagens/carrinho_topo/produto2.jpg" alt="..."> </a> </div>
                     </div>
                     <div class="media-body">
-                      <h6 class="media-heading">WOOD STOOL</h6>
-                      <span class="price">129.00 USD</span> <span class="qty">QTY: 01</span> </div>
+                      <h6 class="media-heading">CREME PARA PELE</h6>
+                      <span class="price"> R$ 39.00</span> <span class="qty">QTD: 01</span> </div>
                   </li>
                   <li>
-                    <h5 class="text-center">SUBTOTAL: 258.00 USD</h5>
+                    <h5 class="text-center"> SUBTOTAL:R$ 168.00</h5>
                   </li>
                   <li class="margin-0">
                     <div class="row">
-                      <div class="col-xs-6"> <a href="shopping-cart.html" class="btn">VIEW CART</a></div>
-                      <div class="col-xs-6 "> <a href="checkout.html" class="btn">CHECK OUT</a></div>
+                      <div class="col-xs-6"> <a href="shopping-cart.php" class="btn">VER CARRINHO</a></div>
+                      <div class="col-xs-6 "> <a href="checkout.php" class="btn">FINALIZAR</a></div>
                     </div>
                   </li>
                 </ul>

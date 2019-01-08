@@ -1603,9 +1603,9 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	margin-top: 10px;
 }
 .papular-block .item-name a {
-	font-size: 22px;
+	font-size: 17px;
 	font-weight: bold;
-	letter-spacing: 3px;
+	letter-spacing: 1px;
 	color: #2d3a4b;
 	text-transform: uppercase;
 }

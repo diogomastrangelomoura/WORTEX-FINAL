@@ -1,0 +1,19 @@
+/* -------------------------------- 
+	Custom CSS 
+-------------------------------- */
+
+/* -------------------------------- 
+	Riscar texto preço
+-------------------------------- */
+
+.riscopreco {
+	text-align: center;
+}
+
+.riscopreco small {
+	vertical-align: top;
+}
+
+.riscopreco span {
+	text-decoration: line-through;
+}
