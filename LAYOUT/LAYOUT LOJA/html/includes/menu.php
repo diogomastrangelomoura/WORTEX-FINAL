@@ -13,16 +13,8 @@
           <!-- NAV -->
           <div class="collapse navbar-collapse" id="nav-open-btn">
             <ul class="nav">
-              <li class="dropdown active"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Home</a>
-                <ul class="dropdown-menu">
-                  <li> <a href="index.html">Index Default</a> </li>
-                  <li> <a href="index-1.html">Index 2</a> </li>
-                  <li> <a href="index-2.html">Index 3</a></li>
-                  <li> <a href="index-header-1.html">Index Header 1</a></li>
-                  <li> <a href="index-header-2.html">Index Header 2</a></li>
-                  <li> <a href="index-header-3.html">Index Header 3</a></li>
-                  <li> <a href="index-header-4.html">Index Header 4</a></li>
-                </ul>
+              <li class="dropdown active"> <a href="home">Home</a>
+                
               </li>
               <li class="dropdown"> <a href="#." class="dropdown-toggle" data-toggle="dropdown">Pages</a>
                 <ul class="dropdown-menu">

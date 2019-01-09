@@ -1,5 +1,5 @@
     <!-- Produtos -->
-    <section class="padding-top-50 padding-bottom-150">
+    <section class="padding-top-150 padding-bottom-50">
       <div class="container"> 
         
         <!-- Main Heading -->

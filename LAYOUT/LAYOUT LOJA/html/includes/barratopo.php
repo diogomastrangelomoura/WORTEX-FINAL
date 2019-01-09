@@ -10,16 +10,13 @@
 <!-- Wrap -->
 <div id="wrap"> 
   
-
-  
     <!-- TOP Bar -->
   <div class="top-bar">
   	<div class="container">
     
     <!-- Moedas -->
     <div class="curency">
-    	
-        
+    
                       <select class="selectpicker">
                         <option>BRL</option>
                         <option>USD</option>
@@ -32,9 +29,8 @@
     	
         
                       <ul>
-                      	<li><a href="#.">LOGIN</a></li>
-                      <li><a href="#."> MINHA CONTA</a></li>
-                      <li><a href="#.">CARRINHO</a></li>         
+                      	<li><a href="login">LOGIN</a></li>
+                      <li><a href="cadastrar"> CADASTRAR</a></li>       
                       
                        <!-- Carrinho do Topo -->
               <li class="dropdown user-basket"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true"><i class="icon-basket-loaded"></i> </a>
@@ -60,8 +56,7 @@
                   </li>
                   <li class="margin-0">
                     <div class="row">
-                      <div class="col-xs-6"> <a href="shopping-cart.php" class="btn">VER CARRINHO</a></div>
-                      <div class="col-xs-6 "> <a href="checkout.php" class="btn">FINALIZAR</a></div>
+                      <div class="col-xs-12 "> <a href="finalizar-compra" class="btn">FINALIZAR</a></div>
                     </div>
                   </li>
                 </ul>
