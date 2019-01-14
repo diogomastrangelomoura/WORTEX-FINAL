@@ -1554,7 +1554,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	display: inline-block;
 	width: 100%;
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 10px;
 	color: #2d3a4b;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -1603,9 +1603,7 @@ header .is-sticky .sticky .user-basket .dropdown-menu {
 	margin-top: 10px;
 }
 .papular-block .item-name a {
-	font-size: 17px;
 	font-weight: bold;
-	letter-spacing: 1px;
 	color: #2d3a4b;
 	text-transform: uppercase;
 }
@@ -4378,7 +4376,7 @@ main {
 	padding: 0 15px;
 }
 .bootstrap-select.btn-group .dropdown-toggle .filter-option {
-	color: white;
+	color: black;
 	font-size: 12px;
 }
 .cart-ship-info.register .bootstrap-select.btn-group .dropdown-menu li {

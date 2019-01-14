@@ -133,7 +133,8 @@
                   </div>
                 </div>
               </li>
-              <li> <a href="contact.html"> contact</a> </li>
+              <li> <a href="shop"> shop</a> </li>
+              <li> <a href="contato"> contato</a> </li>
             </ul>
           </div>
           
@@ -147,7 +148,7 @@
                   <div class="position-center-center">
                     <div class="search">
                       <form>
-                        <input type="search" placeholder="Search Shop">
+                        <input type="search" placeholder="Buscar Produto">
                         <button type="submit"><i class="icon-check"></i></button>
                       </form>
                     </div>

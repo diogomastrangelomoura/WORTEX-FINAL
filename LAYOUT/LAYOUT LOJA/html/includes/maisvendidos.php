@@ -7,18 +7,18 @@
         <div class="heading text-center padding-bottom-50">
           <h4>mais vendidos</h4>
         </div>
-        
+
         <!-- Popular Item Slide -->
-        <div class="papular-block block-slide">
+        <div class="papular-block block-slide" >
 
           <?php
 
                   $imagem = "imagens/maisvendidos/produto1.jpg";
                   $imagem2 = "imagens/maisvendidos/produto1.jpg";
-                  $nome = "CREME PARA A PELE - 200ML";
-                  $descricao = "200ML - CREME PARA PELE, ANTI RUGAS, ESFOLIANTE";
-                  $preco_antigo = "399.00";
-                  $preco_novo = "49.00";
+                  $nome = "CREME PARA A PELE - 200ML - CREME PARA PELE, ANTI RUGAS, ESFOLIANTE";
+                  $preco_antigo = "6x de R$ 23,30 S/ JUROS";
+                  $preco_novo = "69.00";
+                  $desc_botao = "R$ 39.90 no boleto ou transferência";
 
                   $oferta = 1;
                   $valor_oferta = "20";
@@ -42,10 +42,20 @@
                         </div>
                         <!-- Item Name -->
                         <div class="item-name"> <a href="#.">'.$nome.'</a>
-                          <p>'.$descricao.'</p>
+                          
                         </div>
-                        <!-- Price --> 
-                        <span class="price"><small>R$</small>'.$preco_novo.'</span> 
+                        <!-- Price -->
+                        <br>   
+                        <span class="price"><small>R$</small>'.$preco_novo.'</span>
+
+                        <div class="promocoes">
+                             <span>'.$preco_antigo.'</span>
+                              <div class="promocoes-texto">
+                                <a href=""><h1>'.$desc_botao.'</h1></a>
+                              </div>
+                             
+                        </div>
+
                      </div>
 
                     ';
@@ -54,6 +64,8 @@
                   }
 
           ?>
+          
+          
                   
         </div>
       </div>

@@ -43,3 +43,35 @@
 .redes ul li a {
 	margin-right: 10px;
 }
+
+.promocoes {
+	margin-top: 5px;
+	text-align: center;
+}
+
+.promocoes small {
+	vertical-align: top;
+}
+
+.promocoes span {
+	text-align: center;
+}
+
+.promocoes button {
+	margin-top: 20px;
+	font-size: 13px;
+	max-width: 100%;
+	padding-left: 10px;
+}
+
+.promocoes-texto h1{
+	background-color: black;
+	margin-top: 10px;
+	border-radius: 30px;
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}

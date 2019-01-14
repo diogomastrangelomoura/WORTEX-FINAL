@@ -18,10 +18,11 @@
 
                   $imagem = "imagens/produtos/produto1.jpg";
                   $imagem2 = "imagens/produtos/produto1.jpg";
-                  $nome = "CREME PARA A PELE - 200ML";
-                  $descricao = "200ML - CREME PARA PELE, ANTI RUGAS, ESFOLIANTE";
+                  $nome = "CREME PARA A PELE - 200ML - CREME PARA PELE, ANTI RUGAS, ESFOLIANTE";
                   $preco_antigo = "399.00";
-                  $preco_novo = "49.00";
+                  $preco_novo = "69.00";
+                  $desc_botao = "R$ 39.90 no boleto ou transferência";
+                  $preco_juros = "6x de R$ 23,30 S/ JUROS";
 
                   $oferta = 1;
                   $valor_oferta = "20";
@@ -59,14 +60,20 @@
                           </div>
                           <!-- Nome do Item -->
                           <div class="item-name"> <a href="#.">'.$nome.'</a>
-                            <p>'.$descricao.'</p>
                           </div>
                           <!-- Preço -->
                           <br>
                           <div class="riscopreco">
-                             <small>DE: R$</small><span>'.$preco_antigo.'</span>
+                             <small>R$</small><span>'.$preco_antigo.'</span>
                           </div>
-                          <span class="price"><small>POR: R$</small>'.$preco_novo.'</span></div>
+                          <span class="price"><small>R$</small>'.$preco_novo.'</span></div>
+                          <div class="promocoes">
+                             <span>'.$preco_juros.'</span>
+                              <div class="promocoes-texto">
+                                <a href=""><h1>'.$desc_botao.'</h1></a>
+                              </div>
+                             
+                        </div>
                           
                       </div>
 

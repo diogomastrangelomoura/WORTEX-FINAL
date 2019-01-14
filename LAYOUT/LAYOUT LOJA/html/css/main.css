@@ -724,6 +724,7 @@ opacity:0;
 }
 .owl-carousel .owl-item {
 	position: relative;
+	height: auto;
 	min-height: 1px;
 	float: left;
 	-webkit-backface-visibility: hidden;

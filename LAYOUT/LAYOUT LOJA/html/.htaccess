@@ -10,8 +10,10 @@ AddType video/webm webm
 
 RewriteRule ^home?$ index.php [L,QSA]
 RewriteRule ^login?$ login.php [L,QSA]
+RewriteRule ^shop?$ shop.php [L,QSA]
 RewriteRule ^finalizar-compra?$ finalizar-compra.php [L,QSA]
 RewriteRule ^cadastrar?$ cadastrar.php [L,QSA]
+RewriteRule ^contato?$ contato.php [L,QSA]
 
 
 
